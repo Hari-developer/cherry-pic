@@ -9,5 +9,9 @@ public class Cat {
 
     public void eating(){
         System.out.println("cat is eating....");
+        new Cat().running();
+    }
+    public void running(){
+        System.out.println("cat is running...!!");
     }
 }
